@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India - Watch TV Shows Online, Watch Movie Online</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="Images/logo.svg" alt="Netflix Logo" class="Netflix-logo">
+        </div>
+        <div class="nav-actions">
+            <div class="lang">
+                <select class="language-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+            </div>
+            <button class="sign-in-btn">Sign In</button>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <div class="super-hero">
+            <div class="hero-section">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h1>Unlimited movies, TV <br> shows and more</h1>
+                    <h2>Starts at ₹149. Cancel at any time.</h2>
+                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                    <form class="email-form">
+                        <input type="email" placeholder="Email address" required />
+                        <button type="submit">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section-2  -->
+        <section class="trending-section">
+            <h2>Trending Now</h2>
+            <div class="scroll-wrapper">
+                <button class="scroll-btn left">&#10094;</button>
+
+                <div class="trending-container" id="trending-scroll">
+                    <div class="card"><span class="rank">1</span><img src="Images/Chhaava.webp" alt="Movie 1" /></div>
+                    <div class="card"><span class="rank">2</span><img src="Images/Court.webp" alt="Movie 2" /></div>
+                    <div class="card"><span class="rank">3</span><img src="Images/Deva.webp" alt="Movie 3" /></div>
+                    <div class="card"><span class="rank">4</span><img src="Images/Dragon.webp" alt="Movie 4" /></div>
+                    <div class="card"><span class="rank">5</span><img src="Images/when-life-gives-you-trangerines.webp"
+                            alt="Movie 5" /></div>
+                    <div class="card"><span class="rank">6</span><img src="Images/Wrestle-mania.webp" alt="Movie 6" />
+                    </div>
+                    <div class="card"><span class="rank">7</span><img src="Images/Officer.webp" alt="Movie 7" /></div>
+                    <div class="card"><span class="rank">8</span><img src="Images/test.webp" alt="Movie 8" /></div>
+                    <div class="card"><span class="rank">9</span><img src="Images/pushpa2.webp" alt="Movie 8" /></div>
+                    <div class="card"><span class="rank">10</span><img src="Images/Squid-game.webp" alt="Movie 8" />
+                    </div>
+                </div>
+
+                <button class="scroll-btn right">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Reson Section  -->
+        <section class="reasons-section">
+            <h2>More reasons to join</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3>Enjoy on your TV</h3>
+                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                    <div class="icon">🖥️</div>
+                </div>
+                <div class="reason-card">
+                    <h3>Download your shows to watch offline</h3>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                    <div class="icon">📥</div>
+                </div>
+                <div class="reason-card">
+                    <h3>Watch everywhere</h3>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                    <div class="icon">🔭</div>
+                </div>
+                <div class="reason-card">
+                    <h3>Create profiles for kids</h3>
+                    <p>Send kids on adventures with their favourite characters in a space made just for them — free with
+                        your membership.</p>
+                    <div class="icon">🧒🎈</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section  -->
+    <footer>
+        <section class="email-section">
+            <p class="email-heading">
+                Ready to watch? Enter your email to create or restart your membership.
+            </p>
+            <form class="email-form">
+                <input type="email" placeholder="Email address" class="foot-inp" required />
+                <button class="foot-but" type="submit">
+                    Get Started <span class="arrow">➤</span>
+                </button>
+            </form>
+            <p class="support-text">
+                Questions? Call <a href="tel:xxxxxxxxxx">00000 00000</a>
+            </p>
+        </section>
+
+    </footer>
+
+
+</body>
+<!-- <script>
+    const scrollContainer = document.getElementById('trending-scroll');
+    const leftBtn = document.querySelector('.scroll-btn.left');
+    const rightBtn = document.querySelector('.scroll-btn.right');
+
+    leftBtn.addEventListener('click', () => {
+        scrollContainer.scrollBy({ left: -300, behavior: 'smooth' });
+    });
+
+    rightBtn.addEventListener('click', () => {
+        scrollContainer.scrollBy({ left: 300, behavior: 'smooth' });
+    });
+</script> -->
+
+</html>
